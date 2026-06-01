@@ -1,35 +1,37 @@
 <script setup>
-import profileImage from "../assets/projects/profile.jpg";
+import pmiAdminImage from '../assets/projects/pmi-admin.png'
+import pmiPortalImage from '../assets/projects/pmi-portal.png'
+import smartSchoolImage from '../assets/projects/smart-school-service.jpeg'
 const projects = [
   {
-    title: "Personal Portfolio Website",
+    title: "SIMPADU PMI Admin Dashboard",
     description:
-      "A responsive portfolio website built with Vue.js to showcase my projects and skills.",
-    image: profileImage,
-    tech: ["Vue.js", "Tailwind CSS", "JavaScript"],
+      "Admin dashboard system for managing PMI digital services, built using Laravel and Filament with CRUD functionality and modern backend architecture.",
+    image: pmiAdminImage,
+    tech: ["PHP", "Laravel", "Filament", "MySQL"],
+    github: "https://github.com/WildanAdeMamora-18/simpadu-pmi.git",
+  },
+  {
+    title: "SIMPADU PMI Web Portal",
+    description:
+      "Frontend website for PMI digital services with responsive interface and interactive user experience using HTML, CSS, and JavaScript.",
+    image: pmiPortalImage,
+    tech: ["HTML", "CSS", "JavaScript"],
     github: "",
   },
   {
-    title: "E-commerce Store",
-    description:
-      "An online store built with Vue.js and Firebase for real-time database and authentication.",
-    image: profileImage,
-    tech: ["Vue.js", "Firebase", "Stripe API"],
-    github: "",
-  },
-  {
-    title: "Task Management App",
-    description: "A task management application built with Vue.js and Vuex for state management.",
-    image: profileImage,
-    tech: ["Vue.js", "Vuex", "Axios"],
-    github: "",
+    title: "Smart School Service System",
+    description: "Fullstack web application for managing school facility borrowing and administration at SMP Negeri 19 Surabaya.",
+    image: smartSchoolImage,
+    tech: ["PHP", "Bootstrap", "JavaScript", "MySQL"],
+    github: "https://github.com/WildanAdeMamora-18/smart-school-service.git",
   },
 ];
 </script>
 
 <template>
-  <section id="projects" class="py-28 px-6 bg-slate-900" data-aos="fade-up">
-    <div class="max-w-7xl mx-auto">
+  <section id="projects" class="py-28 px-6 bg-slate-900">
+    <div data-aos="fade-up" data-aos-duration="1000" class="max-w-7xl mx-auto">
       <!-- Heading -->
       <div class="mb-16">
         <p class="text-blue-400 text-lg mb-3">Projects</p>
@@ -38,7 +40,7 @@ const projects = [
       </div>
 
       <!-- Projects Grid -->
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div data-aos="zoom-in" data-aos-duration="1100" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div
           v-for="project in projects"
           :key="project.title"

@@ -16,8 +16,8 @@ const skills = [
 </script>
 
 <template>
-  <section id="skills" class="py-28 px-6 bg-slate-950" data-aos="fade-up">
-    <div class="max-w-7xl mx-auto">
+  <section id="skills" class="py-28 px-6 bg-slate-950">
+    <div data-aos="fade-up" data-aos-duration="1000" class="max-w-7xl mx-auto">
       <!-- Heading -->
       <div class="mb-16">
         <p class="text-blue-400 text-lg mb-3">Skills</p>
@@ -26,7 +26,7 @@ const skills = [
       </div>
 
       <!-- Horizontal Scroll -->
-      <div class="marquee">
+      <div data-aos="fade-up" data-aos-duration="1100" class="marquee">
         <div class="marquee-content">
           <div
             v-for="skill in [...skills, ...skills]"

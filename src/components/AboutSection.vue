@@ -1,5 +1,5 @@
 <template>
-  <section id="about" class="py-28 px-6 bg-slate-900" data-aos="fade-up">
+  <section id="about" class="py-28 px-6 bg-slate-900" data-aos="fade-up" data-aos-duration="1100">
     <div class="max-w-7xl mx-auto">
       <!-- Section Title -->
       <div class="mb-16">
@@ -21,28 +21,28 @@
           <!-- Info Cards -->
           <div class="grid grid-cols-2 gap-4">
             <!-- Card 1 -->
-            <div class="bg-slate-800/70 border border-slate-700 rounded-2xl p-5">
+            <div data-aos="flip-down" data-aos-duration="700" class="bg-slate-800/70 border border-slate-700 rounded-2xl p-5">
               <h3 class="text-blue-400 text-sm mb-2">Education</h3>
 
               <p class="font-semibold">Informatics Engineering</p>
             </div>
 
             <!-- Card 2 -->
-            <div class="bg-slate-800/70 border border-slate-700 rounded-2xl p-5">
+            <div data-aos="flip-down" data-aos-duration="800" class="bg-slate-800/70 border border-slate-700 rounded-2xl p-5">
               <h3 class="text-blue-400 text-sm mb-2">Semester</h3>
 
               <p class="font-semibold">6th Semester</p>
             </div>
 
             <!-- Card 3 -->
-            <div class="bg-slate-800/70 border border-slate-700 rounded-2xl p-5">
+            <div data-aos="flip-down" data-aos-duration="900" class="bg-slate-800/70 border border-slate-700 rounded-2xl p-5">
               <h3 class="text-blue-400 text-sm mb-2">Focus</h3>
 
               <p class="font-semibold">Web Development</p>
             </div>
 
             <!-- Card 4 -->
-            <div class="bg-slate-800/70 border border-slate-700 rounded-2xl p-5">
+            <div data-aos="flip-down" data-aos-duration="1000" class="bg-slate-800/70 border border-slate-700 rounded-2xl p-5">
               <h3 class="text-blue-400 text-sm mb-2">Location</h3>
 
               <p class="font-semibold">Indonesia</p>
@@ -51,7 +51,7 @@
         </div>
 
         <!-- Right -->
-        <div class="relative flex justify-center">
+        <div data-aos="fade-left" data-aos-duration="1100" class="relative flex justify-center">
           <!-- Glow -->
           <div
             class="absolute w-[320px] h-[320px] bg-blue-500 opacity-20 blur-3xl rounded-full"
@@ -66,7 +66,11 @@
 const developer = {
   name: "Wildan",
   skills: [
+    "HTML",
+    "CSS",
+    "JavaScript",
     "Vue",
+    "PHP",
     "Laravel",
     "Flutter",
     "MySQL"

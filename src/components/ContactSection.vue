@@ -19,7 +19,7 @@ import { Icon } from "@iconify/vue";
 
         <div class="relative z-10 grid md:grid-cols-2 gap-12 items-center">
           <!-- Left -->
-          <div>
+          <div data-aos="fade-up" data-aos-duration="1000">
             <h3 class="text-3xl font-bold mb-6">Have a project idea?</h3>
 
             <p class="text-slate-400 leading-relaxed mb-8">
@@ -28,7 +28,7 @@ import { Icon } from "@iconify/vue";
             </p>
 
             <a
-              href="#contact" class="bg-blue-600 hover:bg-blue-700 transition px-7 py-4 rounded-2xl font-semibold"
+              href="mailto:ademamorawildan@gmail.com" class="bg-blue-600 hover:bg-blue-700 transition px-7 py-4 rounded-2xl font-semibold"
             >
               Contact Me
             </a>
@@ -37,7 +37,7 @@ import { Icon } from "@iconify/vue";
           <!-- Right -->
           <div class="space-y-5">
             <!-- Email -->
-            <div
+            <div data-aos="fade-left" data-aos-duration="800"
               class="flex items-center gap-4 bg-slate-950 border border-slate-800 rounded-2xl p-5 hover:border-blue-500 transition"
             >
               <div class="w-14 h-14 rounded-2xl bg-blue-500/20 flex items-center justify-center">
@@ -47,12 +47,12 @@ import { Icon } from "@iconify/vue";
               <div>
                 <p class="text-slate-400 text-sm">Email</p>
 
-                <h4 class="font-semibold">wildanademamora817@gmail.com</h4>
+                <a href="mailto:ademamorawildan@gmail.com" class="font-semibold">ademamorawildan@gmail.com</a>
               </div>
             </div>
 
             <!-- GitHub -->
-            <div
+            <div data-aos="fade-left" data-aos-duration="900"
               class="flex items-center gap-4 bg-slate-950 border border-slate-800 rounded-2xl p-5 hover:border-blue-500 transition"
             >
               <div class="w-14 h-14 rounded-2xl bg-blue-500/20 flex items-center justify-center">
@@ -62,12 +62,12 @@ import { Icon } from "@iconify/vue";
               <div>
                 <p class="text-slate-400 text-sm">GitHub</p>
 
-                <h4 class="font-semibold">github.com/WildanAdeMamora-18</h4>
+                <a href="https://github.com/WildanAdeMamora-18" target="_blank" class="font-semibold">github.com/WildanAdeMamora-18</a>
               </div>
             </div>
 
             <!-- LinkedIn -->
-            <div
+            <div data-aos="fade-left" data-aos-duration="1000"
               class="flex items-center gap-4 bg-slate-950 border border-slate-800 rounded-2xl p-5 hover:border-blue-500 transition"
             >
               <div class="w-14 h-14 rounded-2xl bg-blue-500/20 flex items-center justify-center">
@@ -77,7 +77,7 @@ import { Icon } from "@iconify/vue";
               <div>
                 <p class="text-slate-400 text-sm">LinkedIn</p>
 
-                <h4 class="font-semibold">linkedin.com/in/wildan-ade-mamora/</h4>
+                <a href="https://www.linkedin.com/in/wildan-ade-mamora/" target="_blank" class="font-semibold">linkedin.com/in/wildan-ade-mamora</a>
               </div>
             </div>
           </div>

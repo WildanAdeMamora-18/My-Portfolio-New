@@ -1,8 +1,8 @@
 <template>
-  <section id="home" class="min-h-screen flex items-center justify-center px-6" data-aos="fade-up">
+  <section id="home" class="min-h-screen flex items-center justify-center px-6">
     <div class="max-w-7xl w-full grid grid-cols-2 gap-12 items-center">
       <!-- Section-Left -->
-      <div>
+      <div data-aos="fade-up" data-aos-duration="1000">
         <p class="text-blue-400 mb-4 text-xl">Hello I'm</p>
 
         <h1 class="text-5xl md:text-7xl font-bold leading-tight mb-6">
@@ -28,7 +28,7 @@
       </div>
 
       <!-- Section-Right -->
-      <div class="flex justify-center">
+      <div data-aos="zoom-in" data-aos-duration="1000" class="flex justify-center">
         <div
           class="w-[450px] h-[450px] rounded-full bg-gradient-to-br from-blue-500 to-blue-900 blur-3xl opacity-40 absolute"
         ></div>
